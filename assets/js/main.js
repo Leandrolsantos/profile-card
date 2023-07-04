@@ -21,7 +21,9 @@ let maxLocation = numOfPages + 1;
 
 
 function openProfile() {
-
+  profile.style.transform = "translateX(50%)";
+  prevBtn.style.transform = "translateX(-180px)";
+  nextBtn.style.transform = "translateX(180px)";
 }
 
 function closeProfile() {
@@ -57,5 +59,28 @@ function goNextPage() {
 }
 
 function goPrevPage() {
+  if(currentLocation > 1) {
+    switch(currentLocation) {
+      case 2:
+        closeProfile();
+        page1.classList.remove("flipped");
+        page1.style.zIndex = 3;
+        break;
 
+        case 3:
+          page2.classList.remove("flipped");
+          page2.style.zIndex = 2;
+          break;
+
+        case 4:
+          page3.classList.remove("flipped");
+          page3.style.zIndex = 1;
+          break;
+        
+        default:
+          throw new Error("unkown state");
+    }
+
+    currentLocation--;
+  }  
 }
