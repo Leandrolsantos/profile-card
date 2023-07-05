@@ -43,12 +43,13 @@ body {
     left: 0;
     transform-origin: left;
     transition: transform 0.5s;
+    
 }
 
 .front {
     z-index: 1;
     backface-visibility: hidden;
-    border-left: 4px solid rgba(105, 178, 238);
+    border-left: 1px solid rgba(105, 178, 238);
 }
 
 .back {
@@ -62,6 +63,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 3px double black;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.301);
 }
 
 .back-content {
@@ -102,6 +105,8 @@ i {
 
 #p1 {
     z-index: 3;
+    text-align: center;
+    font-size: 10px;
 }
 
 #p2 {

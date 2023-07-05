@@ -26,8 +26,16 @@ function openProfile() {
   nextBtn.style.transform = "translateX(180px)";
 }
 
-function closeProfile() {
+function closeProfile(isAtBeginning) {
+  if(isAtBeginning) {
+    profile.style.transform = "translateX(0%)";
 
+  } else {
+    profile.style.transform = "translateX(100%)";
+
+  }
+  prevBtn.style.transform = "translateX(0px)";
+  nextBtn.style.transform = "translateX(0px)";
 }
 
 function goNextPage() {
@@ -48,7 +56,7 @@ function goNextPage() {
           case 3:
             page3.classList.add("flipped");
             page3.style.zIndex = 3;
-            closeProfile();
+            closeProfile(false);
             break;
 
           default:
@@ -62,7 +70,7 @@ function goPrevPage() {
   if(currentLocation > 1) {
     switch(currentLocation) {
       case 2:
-        closeProfile();
+        closeProfile(true);
         page1.classList.remove("flipped");
         page1.style.zIndex = 3;
         break;
@@ -73,6 +81,7 @@ function goPrevPage() {
           break;
 
         case 4:
+          openProfile();
           page3.classList.remove("flipped");
           page3.style.zIndex = 1;
           break;
