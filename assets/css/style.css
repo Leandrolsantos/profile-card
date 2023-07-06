@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: rgba(105, 178, 238);
 }
 
@@ -43,17 +44,20 @@ body {
     left: 0;
     transform-origin: left;
     transition: transform 0.5s;
-    
 }
 
 .front {
     z-index: 1;
     backface-visibility: hidden;
     border-left: 1px solid rgba(105, 178, 238);
+    background: url("/assets/img/fundo1.jpg") no-repeat;
+    background-size: cover;
 }
 
 .back {
     z-index: 0;
+    background: url("/assets/img/fundo1.jpg") no-repeat;
+    background-size: cover;
 }
 
 .front-content,
@@ -64,7 +68,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 3px double black;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.301);
+    box-shadow: inset 0.5px 0.5px 1.8px rgba(0, 0, 0, 0.301);
 }
 
 .back-content {
@@ -85,7 +89,7 @@ button {
     background-color: transparent;
     cursor: pointer;
     margin: 10px;
-    transition: transform 0.5s;
+    transition: transform 0.5s ease;
 }
 
 button:focus {
@@ -93,12 +97,12 @@ button:focus {
 }
 
 button:hover i {
-    color: #636363;
+    color: #9cff12;
 }
 
 i {
     font-size: 50px;
-    color: gray;
+    color: rgb(240, 233, 8);
 }
 
 /* Pages stack order */
@@ -107,6 +111,8 @@ i {
     z-index: 3;
     text-align: center;
     font-size: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
 }
 
 #p2 {
