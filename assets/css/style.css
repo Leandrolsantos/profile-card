@@ -54,11 +54,39 @@ body {
     background-size: cover;
 }
 
+#photo {
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 90px;
+}
+
+#language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    position: absolute;
+    bottom: 90px;
+    border-radius: 9px;
+}
+
+h2 {
+    display: flex;
+    position: absolute;
+    top: 270px;
+    color: rgb(0, 234, 255);
+}
+
 .back {
     z-index: 0;
     background: url("/assets/img/fundo1.jpg") no-repeat;
     background-size: cover;
 }
+
 
 .front-content,
 .back-content {
@@ -70,6 +98,7 @@ body {
     border: 3px double black;
     box-shadow: inset 0.5px 0.5px 1.8px rgba(0, 0, 0, 0.301);
 }
+
 
 .back-content {
     transform: rotateY(180deg);
@@ -97,7 +126,7 @@ button:focus {
 }
 
 button:hover i {
-    color: #9cff12;
+    color: #2aff12;
 }
 
 i {
