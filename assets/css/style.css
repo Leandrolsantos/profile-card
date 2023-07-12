@@ -78,12 +78,6 @@ body {
     border: 6px groove rgba(222, 149, 4, 0.849);
 }
 
-h2 {
-    display: flex;
-    position: absolute;
-    color: rgb(255, 255, 255);
-    font-size: 1.12rem;
-}
 
 h3 {
     display: flex;
@@ -172,31 +166,40 @@ i {
 
 #f2 {
     text-align: left;
-    font-size: 0.6rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly ;
-    color: white;
-    text-shadow: 1px 1px 2px black;
-}
-
-#b2 {
-    text-align: left;
     font-size: 0.6em;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-    color: white;
-    text-shadow: 1px 1px 2px black;    
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black;
 }
 
-#f3 {
+span h1 {
+    font-size: 1rem;
+}
+
+#b2 {
     text-align: center;
     font-size: 0.6rem;
     position: relative;  
     color: white;
-    text-shadow: 1px 1px 2px black;     
+    text-shadow: 1px 1px 2px black;      
+}
+
+#f3, h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.2rem;
+    position: relative;  
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    cursor: pointer;   
+}
+
+a {
+   text-decoration: none;
 }
 
 #b3 img {
