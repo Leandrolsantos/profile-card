@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Raleway', sans-serif;
-    background: url("/assets/img/fundoback.jpg") no-repeat;
+    background: url("/assets/img/fundoback2.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -72,8 +72,10 @@ body {
     justify-content: center;
     width: 50%;
     position: absolute;
-    bottom: 90px;
+    bottom: 110px;
     border-radius: 9px;
+    background-color: rgba(245, 245, 245, 0.89);
+    border: 6px groove rgba(222, 149, 4, 0.849);
 }
 
 h2 {
@@ -164,13 +166,13 @@ i {
 
 #b1 {
     text-align: justify;
-    font-size: 0.66rem;
+    font-size: 0.6rem;
     position: relative;  
 }
 
 #f2 {
     text-align: left;
-    font-size: 0.672rem;
+    font-size: 0.6rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly ;
@@ -180,7 +182,7 @@ i {
 
 #b2 {
     text-align: left;
-    font-size: 0.672rem;
+    font-size: 0.6em;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -195,4 +197,19 @@ i {
     position: relative;  
     color: white;
     text-shadow: 1px 1px 2px black;     
+}
+
+#b3 img {
+    width: 35%;
+}
+
+.button {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    transition: 0.4s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.4);
 }
