@@ -14,7 +14,7 @@ Deploy: (EM BREVE)
 
 ### Objetivos
 
-Aprender a manipular efeitos 3D usando CSS e JS, criando uma experiencia suave e dinâmica. Criar um cartão dinámico e criativo para apresentação do meu portifólio e minhas habilidades.
+Aprender a manipular efeitos 3D usando CSS e JS, criando uma experiencia suave e dinâmica. Criar um cartão dinâmico e criativo para apresentação do meu portifólio e minhas habilidades.
 
 ### Desafio
 
