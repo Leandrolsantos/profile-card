@@ -1,10 +1,14 @@
 # Profile Card
 
-![](./)
+![](./assets/img/1.png)
 
-![](./)
+![](./assets/img/2.png)
 
-![](./)
+![](./assets/img/3.png)
+
+![](./assets/img/4.png)
+
+![](./assets/img/5.gif)
 
 Deploy: (EM BREVE)
 
