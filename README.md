@@ -10,7 +10,7 @@
 
 ![](./assets/img/5.gif)
 
-Deploy: (EM BREVE)
+Deploy: https://profile-card-one-mocha.vercel.app/
 
 ## Sobre
 
