@@ -14,7 +14,7 @@ Deploy: https://profile-card-one-mocha.vercel.app/
 
 ## Sobre
 
-É um livro 3D que exibe meu perfil com alguns projetos do meu portifólio no Github, assim como as minhas habilidades.
+É um livro 3D que exibe meu perfil com alguns projetos do meu portifólio no Github, assim como as minhas capacidades de hard e soft skills.
 
 ### Objetivos
 
@@ -22,7 +22,7 @@ Aprender a manipular efeitos 3D usando CSS e JS, criando uma experiencia suave e
 
 ### Desafio
 
-Desenvolver mais um projeto usando Javascript, pois é uma linguagem que estou em constante aprendizado para melhor um pouco a cada projeto.
+Desenvolver mais um projeto usando Javascript, pois é uma linguagem que estou em constante aprendizado e assim aprimorar minhas habilidades a cada projeto.
 
 ### Conclusão
 
